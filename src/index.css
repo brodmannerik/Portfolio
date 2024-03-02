@@ -1,0 +1,32 @@
+html {
+  background-color: #F0F0F0;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
+
+.eye {
+  width: 60px;
+  height: 30px;
+  background-color: #00a44d;
+  border: 1px solid black;
+  border-radius: 50% / 50%;
+  position: relative;
+  overflow: hidden;
+  margin: 100px;
+}
+
+.eyeball {
+  width: 15px;
+  height: 25px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease-in-out;
+}
